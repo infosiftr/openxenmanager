@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
-cd "$(dirname "$BASH_SOURCE")"
+cd "$(dirname "$(readlink -f "$BASH_SOURCE")")"
 exec python window.py
