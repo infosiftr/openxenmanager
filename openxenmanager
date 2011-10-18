@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
 cd "$(dirname "$(readlink -f "$BASH_SOURCE")")"
-exec /usr/bin/env python2 window.py
+exec /usr/bin/env python window.py
